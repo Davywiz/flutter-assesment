@@ -1,13 +1,23 @@
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
+import 'app_colors.dart';
 
 ThemeData buildAppTheme() {
-  return ThemeData(
-    useMaterial3: true,
-    scaffoldBackgroundColor: const Color(0xFFF5F5F5),
-    colorScheme: ColorScheme.fromSeed(seedColor: const Color(0xFF0066FF)),
-    textTheme: const TextTheme(
-      bodyMedium: TextStyle(fontSize: 14, fontWeight: FontWeight.w400),
-      titleMedium: TextStyle(fontSize: 16, fontWeight: FontWeight.w600),
+  final base = ThemeData.light();
+
+  final appTheme = base.copyWith(
+    scaffoldBackgroundColor: AppColors.primaryBlue,
+    colorScheme: ColorScheme.fromSeed(seedColor: AppColors.primaryBlue),
+  );
+
+  return appTheme.copyWith(
+    textTheme: GoogleFonts.publicSansTextTheme(appTheme.textTheme).apply(
+      bodyColor: AppColors.textPrimary,
+      displayColor: AppColors.textPrimary,
     ),
+
+    iconTheme: const IconThemeData(color: AppColors.textPrimary),
+
+    dividerColor: AppColors.border,
   );
 }
