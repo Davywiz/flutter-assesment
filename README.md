@@ -61,7 +61,7 @@ Screenshots are located in the **`/screenshots`** folder.
 
 | Top Section                 | Middle Section                    | Bottom Section                    |
 | --------------------------- | --------------------------------- | --------------------------------- |
-| ![Top](screenshots/Simulator Screenshot - iPhone 16 - 2025-10-23 at 23.16.30.png) | ![Middle](screenshots/Simulator Screenshot - iPhone 16 - 2025-10-23 at 23.17.06.png) | ![Bottom](screenshots/Simulator Screenshot - iPhone 16 - 2025-10-23 at 23.17.32.png) |
+| ![Top](screenshots/top.png) | ![Middle](screenshots/middle.png) | ![Bottom](screenshots/bottom.png) |
 
 ---
 
