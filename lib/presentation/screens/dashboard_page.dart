@@ -1,17 +1,36 @@
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
+import '../widgets/footer.dart';
+
+import '../widgets/dashboard_body.dart';
+import '../widgets/header.dart';
 
 class DashboardPage extends StatelessWidget {
   const DashboardPage({super.key});
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(
-        title: const Text('Medical Center Dashboard'),
-        centerTitle: true,
-      ),
-      body: const Center(
-        child: Text('Scaffold', style: TextStyle(fontSize: 18)),
+    return AnnotatedRegion<SystemUiOverlayStyle>(
+      value: SystemUiOverlayStyle.light,
+      child: Scaffold(
+        resizeToAvoidBottomInset: false,
+        body: SafeArea(
+          child: SingleChildScrollView(
+            physics: const BouncingScrollPhysics(),
+            child: Column(
+              crossAxisAlignment: CrossAxisAlignment.stretch,
+              children: [
+                const SizedBox(height: 30),
+                HeaderTitle(),
+                const SizedBox(height: 30),
+                DashboardBody(),
+                SizedBox(height: 30),
+                Footer(),
+                SizedBox(height: 50),
+              ],
+            ),
+          ),
+        ),
       ),
     );
   }

@@ -9,7 +9,8 @@ class AppColors {
   static const Color white = Color(0xFFFFFFFF);
   static const Color textPrimary = Color(0xFF32384B);
   static const Color textSecondary = Color(0xFF333333);
-  static const Color black = Color(0x19000000);
+  static const Color black = Color(0xff000000);
+  static const Color containerBackground = Color(0xFFF6F7FB);
 
   // Functional colors
   static const Color greenColor = Color(0xFF20966C);
