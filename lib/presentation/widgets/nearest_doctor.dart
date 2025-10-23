@@ -15,10 +15,11 @@ class NearestDoctor extends StatelessWidget {
         HeaderTile(title: 'Nearest Doctors'),
         SizedBox(height: 25),
         ListView.separated(
+          padding: EdgeInsets.zero,
           itemCount: mockNearestDoctors.length,
           shrinkWrap: true,
           physics: const NeverScrollableScrollPhysics(),
-          separatorBuilder: (_, __) => const SizedBox(height: 14),
+          separatorBuilder: (_, __) => const SizedBox(height: 15),
           itemBuilder: (context, index) {
             final doctor = mockNearestDoctors[index];
             return DoctorCard(doctor: doctor);

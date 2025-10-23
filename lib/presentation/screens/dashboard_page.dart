@@ -27,7 +27,7 @@ class DashboardPage extends StatelessWidget {
                 DashboardBody(),
                 SizedBox(height: 30),
                 Footer(),
-                SizedBox(height: 50),
+                SizedBox(height: 25),
               ],
             ),
           ),

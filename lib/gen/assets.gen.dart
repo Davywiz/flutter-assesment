@@ -61,9 +61,9 @@ class $AssetsImagesGen {
   /// File path: assets/images/doctor3.png
   AssetGenImage get doctor3 => const AssetGenImage('assets/images/doctor3.png');
 
-  /// File path: assets/images/hospital_bulding.png
-  AssetGenImage get hospitalBulding =>
-      const AssetGenImage('assets/images/hospital_bulding.png');
+  /// File path: assets/images/hospital_building.png
+  AssetGenImage get hospitalBuilding =>
+      const AssetGenImage('assets/images/hospital_building.png');
 
   /// File path: assets/images/menu-board.png
   AssetGenImage get menuBoard =>
@@ -89,7 +89,7 @@ class $AssetsImagesGen {
     doctor1,
     doctor2,
     doctor3,
-    hospitalBulding,
+    hospitalBuilding,
     menuBoard,
     tileBackground,
   ];
