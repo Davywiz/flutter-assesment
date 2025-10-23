@@ -1,8 +1,6 @@
-import 'package:flutter/material.dart';
-
 class CategoryModel {
   final String title;
-  final Widget icon;
+  final String icon;
 
   const CategoryModel({required this.title, required this.icon});
 }

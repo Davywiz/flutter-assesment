@@ -15,6 +15,7 @@ class DashboardPage extends StatelessWidget {
       child: Scaffold(
         resizeToAvoidBottomInset: false,
         body: SafeArea(
+          bottom: false,
           child: SingleChildScrollView(
             physics: const BouncingScrollPhysics(),
             child: Column(

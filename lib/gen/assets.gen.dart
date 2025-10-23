@@ -17,6 +17,31 @@ import 'package:vector_graphics/vector_graphics.dart' as _vg;
 class $AssetsImagesGen {
   const $AssetsImagesGen();
 
+  /// File path: assets/images/Dermis.png
+  AssetGenImage get dermis => const AssetGenImage('assets/images/Dermis.png');
+
+  /// File path: assets/images/Ear.png
+  AssetGenImage get ear => const AssetGenImage('assets/images/Ear.png');
+
+  /// File path: assets/images/Heart_1.png
+  AssetGenImage get heart1 => const AssetGenImage('assets/images/Heart_1.png');
+
+  /// File path: assets/images/Joint.png
+  AssetGenImage get joint => const AssetGenImage('assets/images/Joint.png');
+
+  /// File path: assets/images/Lungs.png
+  AssetGenImage get lungs => const AssetGenImage('assets/images/Lungs.png');
+
+  /// File path: assets/images/Stethoscope.png
+  AssetGenImage get stethoscope =>
+      const AssetGenImage('assets/images/Stethoscope.png');
+
+  /// File path: assets/images/Stomach.png
+  AssetGenImage get stomach => const AssetGenImage('assets/images/Stomach.png');
+
+  /// File path: assets/images/Teeth.png
+  AssetGenImage get teeth => const AssetGenImage('assets/images/Teeth.png');
+
   /// File path: assets/images/building.png
   AssetGenImage get building =>
       const AssetGenImage('assets/images/building.png');
@@ -30,7 +55,19 @@ class $AssetsImagesGen {
       const AssetGenImage('assets/images/tile_background.png');
 
   /// List of all assets
-  List<AssetGenImage> get values => [building, menuBoard, tileBackground];
+  List<AssetGenImage> get values => [
+    dermis,
+    ear,
+    heart1,
+    joint,
+    lungs,
+    stethoscope,
+    stomach,
+    teeth,
+    building,
+    menuBoard,
+    tileBackground,
+  ];
 }
 
 class $AssetsSvgGen {
