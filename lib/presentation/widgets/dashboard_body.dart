@@ -1,9 +1,12 @@
 import 'package:flutter/material.dart';
-import 'categories_grid.dart';
-import 'quick_action_row.dart';
+
+import 'nearest_doctor.dart';
+
 import '../../core/theme/app_colors.dart';
 import 'appointment_card.dart';
+import 'categories_grid.dart';
 import 'drag_handle.dart';
+import 'quick_action_row.dart';
 import 'search_bar.dart';
 
 class DashboardBody extends StatelessWidget {
@@ -28,6 +31,8 @@ class DashboardBody extends StatelessWidget {
           QuickActionRow(),
           SizedBox(height: 25),
           CategoriesGrid(),
+          SizedBox(height: 25),
+          NearestDoctor(),
           SizedBox(height: 25),
         ],
       ),

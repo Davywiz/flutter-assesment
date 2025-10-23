@@ -15,9 +15,11 @@ class AppColors {
   // Functional colors
   static const Color greenColor = Color(0xFF20966C);
 
-  static const Color errorRed = Color(0xffFF525E);
+  static const Color favoriteRed = Color(0xffFF525E);
   static const Color border = Color(0x19000000);
   static const Color greyColor = Color(0xFF96A3BF);
+  static const Color grey2 = Color(0xFFF1F3F6);
+  static const Color dividerColor = Color(0xFFF2F4F5);
 
   // Shadow color
   static const Color shadow = Color(0xFF0099FF); // 10% black opacity

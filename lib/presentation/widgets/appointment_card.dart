@@ -108,7 +108,9 @@ class _DoctorInfo extends StatelessWidget {
               shape: BoxShape.circle,
               border: Border.all(width: 1.12, color: const Color(0xFFF4F4F6)),
             ),
+            child: Assets.images.doctor.image(),
           ),
+
           const SizedBox(width: 10),
           Expanded(
             child: Column(

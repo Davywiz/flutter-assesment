@@ -16,7 +16,6 @@ class HeaderTile extends StatelessWidget {
           style: TextStyle(
             color: AppColors.black,
             fontSize: 16,
-
             fontWeight: FontWeight.w600,
             height: 1.50,
             letterSpacing: 0.50,

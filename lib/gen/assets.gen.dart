@@ -32,6 +32,9 @@ class $AssetsImagesGen {
   /// File path: assets/images/Lungs.png
   AssetGenImage get lungs => const AssetGenImage('assets/images/Lungs.png');
 
+  /// File path: assets/images/Star.png
+  AssetGenImage get star => const AssetGenImage('assets/images/Star.png');
+
   /// File path: assets/images/Stethoscope.png
   AssetGenImage get stethoscope =>
       const AssetGenImage('assets/images/Stethoscope.png');
@@ -45,6 +48,22 @@ class $AssetsImagesGen {
   /// File path: assets/images/building.png
   AssetGenImage get building =>
       const AssetGenImage('assets/images/building.png');
+
+  /// File path: assets/images/doctor.png
+  AssetGenImage get doctor => const AssetGenImage('assets/images/doctor.png');
+
+  /// File path: assets/images/doctor1.png
+  AssetGenImage get doctor1 => const AssetGenImage('assets/images/doctor1.png');
+
+  /// File path: assets/images/doctor2.png
+  AssetGenImage get doctor2 => const AssetGenImage('assets/images/doctor2.png');
+
+  /// File path: assets/images/doctor3.png
+  AssetGenImage get doctor3 => const AssetGenImage('assets/images/doctor3.png');
+
+  /// File path: assets/images/hospital_bulding.png
+  AssetGenImage get hospitalBulding =>
+      const AssetGenImage('assets/images/hospital_bulding.png');
 
   /// File path: assets/images/menu-board.png
   AssetGenImage get menuBoard =>
@@ -61,10 +80,16 @@ class $AssetsImagesGen {
     heart1,
     joint,
     lungs,
+    star,
     stethoscope,
     stomach,
     teeth,
     building,
+    doctor,
+    doctor1,
+    doctor2,
+    doctor3,
+    hospitalBulding,
     menuBoard,
     tileBackground,
   ];
@@ -81,8 +106,14 @@ class $AssetsSvgGen {
   SvgGenImage get calendarTick =>
       const SvgGenImage('assets/svg/calendar-tick.svg');
 
+  /// File path: assets/svg/calendar.svg
+  SvgGenImage get calendar => const SvgGenImage('assets/svg/calendar.svg');
+
   /// File path: assets/svg/clock.svg
   SvgGenImage get clock => const SvgGenImage('assets/svg/clock.svg');
+
+  /// File path: assets/svg/location.svg
+  SvgGenImage get location => const SvgGenImage('assets/svg/location.svg');
 
   /// File path: assets/svg/map.svg
   SvgGenImage get map => const SvgGenImage('assets/svg/map.svg');
@@ -101,7 +132,9 @@ class $AssetsSvgGen {
   List<SvgGenImage> get values => [
     bxCheckShieldSvg,
     calendarTick,
+    calendar,
     clock,
+    location,
     map,
     searchIcon,
     searchTrailingIcon,

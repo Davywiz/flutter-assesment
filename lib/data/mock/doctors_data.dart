@@ -1,31 +1,39 @@
+import 'package:flutter_assesment/gen/assets.gen.dart';
+
 import '../models/doctor_model.dart';
 
-const mockDoctors = [
+final mockNearestDoctors = <DoctorModel>[
   DoctorModel(
     name: 'Clark Mark',
-    numOfYears: 4,
     specialty: 'Dentist',
-    hospital: 'Horizon Medical Center',
+    years: 4,
     rating: 4.8,
     reviews: 40,
-    image: 'assets/images/doctor_1.png',
+    hospital: 'Horizon Medical Center',
+    distanceKm: 2.0,
+    avatar: Assets.images.doctor1.path,
+    isFavorite: false,
   ),
   DoctorModel(
     name: 'White Mond',
     specialty: 'Neurologist',
-    hospital: 'Horizon Medical Center',
-    numOfYears: 15,
+    years: 15,
     rating: 4.9,
     reviews: 440,
-    image: 'assets/images/doctor_2.png',
+    hospital: 'Horizon Medical Center',
+    distanceKm: 2.0,
+    avatar: Assets.images.doctor2.path,
+    isFavorite: true,
   ),
   DoctorModel(
     name: 'Wilson Herwitz',
     specialty: 'General Practitioner',
-    hospital: 'Horizon Medical Center',
-    numOfYears: 10,
+    years: 10,
     rating: 4.9,
-    reviews: 440,
-    image: 'assets/images/doctor_2.png',
+    reviews: 190,
+    hospital: 'Horizon Medical Center',
+    distanceKm: 2.0,
+    avatar: Assets.images.doctor3.path,
+    isFavorite: false,
   ),
 ];
